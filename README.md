@@ -2,7 +2,10 @@
 Web Scraping using Python, Scrapy and Splash
 
 ## Installation
-- git clone https://github.com/ADI-KOTKAR/Scrapy-Crawlers.git
+- Clone Repo.
+```
+git clone https://github.com/ADI-KOTKAR/Scrapy-Crawlers.git
+```
 - Requirements : pip install requirements.txt
 
 ## Resources
@@ -15,5 +18,6 @@ Web Scraping using Python, Scrapy and Splash
 - worldometers : https://www.worldometers.info/world-population/population-by-country/
 
 ## Running Splash on Docker
-- Splash : docker run -it -p 8050:8050 --rm scrapinghub/splash
-
+```
+docker run -it -p 8050:8050 --rm scrapinghub/splash
+```
