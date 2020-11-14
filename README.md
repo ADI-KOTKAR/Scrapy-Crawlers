@@ -1,5 +1,5 @@
 # Scrapy-Crawlers
-Web Scraping using Python, Scrapy and Splash
+Web Scraping with Python using Scrapy, Splash and Selenium.
 
 ## Installation
 - Cloning Repo:
@@ -19,6 +19,7 @@ pip install requirements.txt
 - Livecoin : https://www.livecoin.net/en
 - DuckDuckGo : https://duckduckgo.com/
 - worldometers : https://www.worldometers.info/world-population/population-by-country/
+- slickdeals : https://slickdeals.net/computer-deals/
 
 ## Running Splash on Docker
 ```

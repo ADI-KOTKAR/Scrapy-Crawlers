@@ -1,9 +1,26 @@
+# imdb
 imdb/imdb/__pycache__
 imdb/imdb/spiders/__pycache__
+imdb/debug.log
+
+# livecoin
 livecoin/livecoin/__pycache__
 livecoin/livecoin/spiders/__pycache__
+livecoin/debug.log
 livecoin/chromedriver.exe
-selenium_basics/chromedriver.exe
+
+# selenium_basics
 selenium_basics/debug.log
+selenium_basics/chromedriver.exe
+
+# worldometers
 worldometers/worldometers/__pycache__
 worldometers/worldometers/spiders/__pycache__
+worldometers/debug.log
+
+# silkdeals
+silkdeals/silkdeals/__pycache__
+silkdeals/silkdeals/spiders/__pycache__
+silkdeals/debug.log
+silkdeals/chromedriver.exe
+silkdeals/*.png
