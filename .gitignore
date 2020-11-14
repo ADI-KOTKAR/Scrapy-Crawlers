@@ -1,0 +1,9 @@
+imdb/imdb/__pycache__
+imdb/imdb/spiders/__pycache__
+livecoin/livecoin/__pycache__
+livecoin/livecoin/spiders/__pycache__
+livecoin/chromedriver.exe
+selenium_basics/chromedriver.exe
+selenium_basics/debug.log
+worldometers/worldometers/__pycache__
+worldometers/worldometers/spiders/__pycache__
