@@ -2,11 +2,14 @@
 Web Scraping using Python, Scrapy and Splash
 
 ## Installation
-- Clone Repo.
+- Cloning Repo:
 ```
 git clone https://github.com/ADI-KOTKAR/Scrapy-Crawlers.git
 ```
-- Requirements : pip install requirements.txt
+- Installing Requirements:
+ ```
+pip install requirements.txt
+```
 
 ## Resources
 - CSS : https://try.jsoup.org/
