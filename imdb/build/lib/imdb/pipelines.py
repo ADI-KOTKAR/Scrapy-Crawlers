@@ -7,6 +7,7 @@
 import logging
 import pymongo
 import sqlite3
+import os
 
 class SQLitePipeline(object):
     def open_spider(self, spider):
@@ -41,7 +42,7 @@ class SQLitePipeline(object):
             item.get('rating'), 
             item.get('movie_url')
         ))
-        self.connection.commit()
+        self.connection.commit()        
         return item
 
 
@@ -49,7 +50,8 @@ class MongodbPipeline(object):
     collection_name = "best_movies"
 
     def open_spider(self, spider):
-        self.client = pymongo.MongoClient("mongodb+srv://adi-kotkar:base1234@techvents.dk9x0.mongodb.net/IMDB?retryWrites=true&w=majority")
+        mongo_uri = os.environ.get('MONGO_URI')
+        self.client = pymongo.MongoClient(mongo_uri)
         self.db = self.client["IMDB"]
 
     def close_spider(self, spider):
