@@ -17,6 +17,7 @@ cssselect==1.1.0
 decorator==4.4.2
 dnspython==1.16.0
 docker==4.3.1
+herokuify-scrapyd==1.0
 hyperlink @ file:///tmp/build/80754af9/hyperlink_1600360282274/work
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 incremental==17.5.0
@@ -58,6 +59,8 @@ scrapinghub==2.3.1
 Scrapy==1.6.0
 scrapy-selenium==0.0.7
 scrapy-splash==0.7.2
+scrapyd==1.2.1
+scrapyd-client @ git+https://github.com/scrapy/scrapyd-client.git@4d839039ccd7b84997ba3fd533df313701b5ab68
 selenium==3.141.0
 service-identity @ file:///tmp/build/80754af9/service_identity_1592494375577/work
 shub==2.12.0

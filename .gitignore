@@ -1,12 +1,16 @@
 # imdb
-imdb/imdb/__pycache__
-imdb/imdb/spiders/__pycache__
+imdb/imdb/__pycache__/
+imdb/imdb/spiders/__pycache__/
 imdb/debug.log
 imdb/.scrapy
 imdb/*.json
 imdb/*.db
 # imdb/scrapinghub.yml
-imdb/project.egg-info
+imdb/project.egg-info/
+imdb/build/
+imdb/dbs/
+imdb/eggs/
+imdb/.vscode/
 
 # livecoin
 livecoin/livecoin/__pycache__
